@@ -1,0 +1,109 @@
+/*@font-face {
+  font-family: Flame;
+  src : url(Font/EasyBricks.ttf);
+}
+@font-face {
+  font-family : froid;
+  src : url(Font/Winterflakes.ttf);
+}*/
+
+body {
+  background-image: url(Img/pattern.png);
+  background-position: center;
+
+}
+
+#red{
+  color: red;
+}
+
+#blue{
+  color: blue;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+#partG {
+  color: white;
+  font-weight: bold;
+  margin-top: 10%;
+  height: 500px;
+  width: 70%;
+  float: left;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: black solid 1px;
+  margin-left:0.8%;
+}
+
+p{
+  margin: 5%;
+  text-align: justify;
+  text-align-last: center;
+  position: relative;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  margin: 0.5%;
+  font-size: 20px;
+  text-align: center;
+}
+
+#Res{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: solid black 1px;
+  margin-right: 0.8%;
+  margin-top: 10%;
+  height: 500px;
+  width: 28%;
+  float: right;
+  text-align: center;
+}
+
+#Res p {
+  margin-top: 3%;
+}
+
+.froid {
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+  background-image: url(Img/mulan.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hot {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  background-image: url(Img/hot.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tiede {
+  color: orange;
+  font-weight: bold;
+  font-size: 20px;
+  background-image: url(Img/tiede.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bravo{
+  color:green;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 8%;
+  background-image: url(Img/bravo1.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}

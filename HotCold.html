@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="HotCold.css" media="screen" title="no title">
+    <title>Chaud ou Froid ?</title>
+  </head>
+  <body>
+    <h1> <span id="red"> Chaud</span> ou <span id="blue">Froid</span> ? </h1>
+
+    <div id =partG>
+
+      <p> L'IA va choisir un nombre entre 1 et 100, à vous de trouver lequel! A chacune de vos réponses, l'ordinateur vous précisera si vous êtes plus ou moins proche de la réponse en vous affichant "Chaud", "Tiède" ou "Froid".</p>
+      <p> A vous de jouer ! </p>
+
+
+      <form >
+      <label for"Number"> Entrez un chiffre :</label><br>
+      <input id ="jeu" type="number" name="Number"><br>
+      <input type="button" onclick="Calcul()" value="Go!">
+      </form>
+
+
+    </div>
+
+    <div id="Res">
+    </div>
+
+  </body>
+  <script src="HotCold.js"></script>
+</html>
