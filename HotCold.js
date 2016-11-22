@@ -38,4 +38,11 @@ console.log("Essai = " + essai++);
     Res.className = "froid";
     }
 
+     if (essai == 5) {
+     alert("Le nom est compris entre " + (nbrIA -10) + " et " + (nbrIA +14) + ".");
+    }
+    if (diff != 0 && essai == 10) {
+    alert("Vous avez perdu, c'est con ahah!");
+    location.reload();
+    }
 }
