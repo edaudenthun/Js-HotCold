@@ -38,8 +38,11 @@ console.log("Essai = " + essai++);
     Res.className = "froid";
     }
 
+    var indice = nbrIA/10;
+    var indice2 = Math.floor(indice *10);
+
      if (essai == 5) {
-     alert("Le nom est compris entre " + (nbrIA -10) + " et " + (nbrIA +14) + ".");
+     alert("Le nom est compris entre " + (indice2) + " et " + (indice2 +10 ) + ".");
     }
     if (diff != 0 && essai == 10) {
     alert("Vous avez perdu, c'est con ahah!");
